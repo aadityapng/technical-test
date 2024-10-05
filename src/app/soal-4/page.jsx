@@ -1,5 +1,23 @@
 "use client";
 
+//  DIGUNAIN KETIKA MENGGUNAKAN LOADING UI NEXT JS FETCH SERVER SIDE -----------------------------------
+// async function getUsers() {
+//   // Menambahkan delay buatan
+//   await new Promise(resolve => setTimeout(resolve, 2000));
+  
+//   const response = await fetch(
+//     "https://jsonplaceholder.typicode.com/users",
+//     {
+//       cache: "no-store",
+//     }
+//   );
+  
+//   return response.json();
+// }
+
+// export default async function UsersPage() {
+//   const users = await getUsers();
+
 import React, { useEffect, useState } from "react";
 
 const UsersPage = () => {
