@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-screen gap-10">
-      <h1 className="text-3xl font-bold">Pilih Soal Yang Kamu Inginkan</h1>
+      <h1 className="text-3xl font-bold">Pilih Soal Yang Kamu Inginkan Di Bawah Ini</h1>
       <div className="flex items-center justify-center gap-10">
         <Link
           href="/soal-1"
